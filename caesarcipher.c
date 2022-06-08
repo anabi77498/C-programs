@@ -4,6 +4,11 @@
 #include <ctype.h>
 #include <string.h>
 
+# To run, the command line must have two arguments ./'filename' '# of shifts'
+
+# Implements a cipher with the rule being a defined number of shifts in the alphabet
+# Input - integer
+# Output - text shifted by input amount in alphabet
 
 int main(int argc, string argv[])
 {
